@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.community_assist">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
@@ -9,6 +8,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Community_Assist">
+        <activity
+            android:name=".UserReg"
+            android:exported="false" />
+        <activity
+            android:name=".AdminReg"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterChoose"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

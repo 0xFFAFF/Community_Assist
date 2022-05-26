@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Community_Assist</string>
+    <string name="todo">TODO</string>
+    <string name="app_Name">爱社区</string>
 </resources>

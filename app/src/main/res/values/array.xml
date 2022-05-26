@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>管理员登录</item>
+        <item>用户登录</item>
+    </string-array>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5F5F5"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/back_button_inUserReg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/back" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/community_logo"
+                android:contentDescription="@string/todo" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:text="@string/app_Name"
+                android:textSize="30sp"
+                android:textColor="#808080"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="394dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/edit_user_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textedit_background"
+                    android:padding="15dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:hint="输入社区名字"
+                    android:textSize="20sp"
+                    android:inputType="text"
+                    android:maxLength="10"/>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/user_name_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textedit_background"
+                android:padding="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:hint="输入用户名"
+                android:textSize="20sp"
+                android:inputType="text"
+                android:maxLength="10"/>
+
+            <EditText
+                android:id="@+id/user_pwd_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textedit_background"
+                android:padding="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:hint="输入密码"
+                android:textSize="20sp"
+                android:inputType="textPassword"
+                android:maxLength="10"/>
+
+            <EditText
+                android:id="@+id/user_pwd2_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textedit_background"
+                android:padding="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:hint="确认密码"
+                android:textSize="20sp"
+                android:inputType="textPassword"
+                android:maxLength="10"/>
+            <Button
+                android:id="@+id/reg_button_of_user"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:layout_margin="15dp"
+                android:textColor="@color/white"
+                android:text="注   册"
+                android:textSize="24sp"
+                android:background="@drawable/button_background" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
