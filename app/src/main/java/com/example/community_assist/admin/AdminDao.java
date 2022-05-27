@@ -12,6 +12,9 @@ public interface AdminDao {
     @Insert//(onConflict = OnConflictStrategy.FAIL)
     void insertAdmin(Admin admin);
 
+    @Query("select * from adminInfo where adminName=(:name) and adminPwd=(:pwd)")
+    public Admin loadAdmin(String name,String pwd);
+
     @Query("SELECT address FROM adminInfo")
     public List<String> loadAddressInfo();
 

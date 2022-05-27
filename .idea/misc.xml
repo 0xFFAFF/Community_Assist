@@ -4,14 +4,22 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android_Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.13451086956521738" />
+        <entry key="..\:/Project/Android_Proj/Community_Assist/app/src/main/res/drawable/bt2.xml" value="0.1955" />
         <entry key="..\:/Project/Android_Proj/Community_Assist/app/src/main/res/drawable/button_background.xml" value="0.1615" />
+        <entry key="..\:/Project/Android_Proj/Community_Assist/app/src/main/res/drawable/edit_background.xml" value="0.1" />
         <entry key="..\:/Project/Android_Proj/Community_Assist/app/src/main/res/drawable/textedit_background.xml" value="0.1615" />
         <entry key="..\:/Project/Android_Proj/Community_Assist/app/src/main/res/drawable/toast_radius.xml" value="0.121" />
+        <entry key="..\:/Project/Android_Proj/Community_Assist/app/src/main/res/layout/activity_admin_handler.xml" value="0.2" />
         <entry key="..\:/Project/Android_Proj/Community_Assist/app/src/main/res/layout/activity_admin_reg.xml" value="0.13451086956521738" />
         <entry key="..\:/Project/Android_Proj/Community_Assist/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Project/Android_Proj/Community_Assist/app/src/main/res/layout/activity_register_choose.xml" value="0.23489583333333333" />
+        <entry key="..\:/Project/Android_Proj/Community_Assist/app/src/main/res/layout/activity_user_handler.xml" value="0.24947916666666667" />
         <entry key="..\:/Project/Android_Proj/Community_Assist/app/src/main/res/layout/admin_reg_menu.xml" value="0.24947916666666667" />
         <entry key="..\:/Project/Android_Proj/Community_Assist/app/src/main/res/layout/dropline_spinner.xml" value="0.13451086956521738" />
+        <entry key="..\:/Project/Android_Proj/Community_Assist/app/src/main/res/layout/fragment_admin_add.xml" value="0.4" />
+        <entry key="..\:/Project/Android_Proj/Community_Assist/app/src/main/res/layout/fragment_admin_delete.xml" value="0.10280797101449275" />
+        <entry key="..\:/Project/Android_Proj/Community_Assist/app/src/main/res/layout/fragment_admin_query.xml" value="0.11372847011144883" />
+        <entry key="..\:/Project/Android_Proj/Community_Assist/app/src/main/res/layout/fragment_admin_quety.xml" value="0.10663627152988855" />
         <entry key="..\:/Project/Android_Proj/Community_Assist/app/src/main/res/layout/my_spinner.xml" value="0.13451086956521738" />
         <entry key="..\:/Project/Android_Proj/Community_Assist/app/src/main/res/layout/register_choose.xml" value="0.24947916666666667" />
         <entry key="..\:/Project/Android_Proj/Community_Assist/app/src/main/res/layout/user_reg_menu.xml" value="0.24947916666666667" />

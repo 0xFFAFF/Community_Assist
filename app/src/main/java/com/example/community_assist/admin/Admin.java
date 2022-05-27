@@ -7,6 +7,8 @@ import androidx.room.Entity;
 import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
+import java.io.Serializable;
+
 /*
 * 定义存放管理员信息的数据库
 * 存放的信息为账号，密码，管理员地址
@@ -14,7 +16,7 @@ import androidx.room.PrimaryKey;
 *
 * */
 @Entity(tableName = "adminInfo",primaryKeys = {"adminName"})
-public class Admin {
+public class Admin implements Serializable {
     @NonNull
     public String adminName;
     @NonNull

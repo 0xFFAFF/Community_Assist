@@ -7,7 +7,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Community_Assist">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".UserHandler"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHandler"
+            android:exported="false" />
         <activity
             android:name=".UserReg"
             android:exported="false" />

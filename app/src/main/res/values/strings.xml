@@ -2,4 +2,6 @@
     <string name="app_name">Community_Assist</string>
     <string name="todo">TODO</string>
     <string name="app_Name">爱社区</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

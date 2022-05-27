@@ -5,8 +5,10 @@ import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.Ignore;
 
+import java.io.Serializable;
+
 @Entity(tableName = "userInfo",primaryKeys = {"userName"})
-public class User {
+public class User implements Serializable {
     @NonNull
     public String userName;
 

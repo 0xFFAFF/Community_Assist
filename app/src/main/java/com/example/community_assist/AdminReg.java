@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
@@ -17,7 +18,7 @@ import android.widget.Toast;
 import com.example.community_assist.admin.Admin;
 import com.example.community_assist.admin.AdminDao;
 
-public class AdminReg extends AppCompatActivity implements View.OnClickListener {
+public class AdminReg extends Activity implements View.OnClickListener {
     Button backButton;
     Button regButton;
 

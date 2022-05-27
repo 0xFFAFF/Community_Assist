@@ -13,4 +13,7 @@ public interface UserDao {
     @Insert
     void insertUser(User user);
 
+    @Query("select * from userInfo where userName=(:name) and userPwd=(:pwd)")
+    public User loadUser(String name,String pwd);
+
 }

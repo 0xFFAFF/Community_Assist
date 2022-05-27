@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
@@ -25,7 +26,7 @@ import com.example.community_assist.user.UserDao;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserReg extends AppCompatActivity implements View.OnClickListener {
+public class UserReg extends Activity implements View.OnClickListener {
     Button backButton;
     Button regButton;
 
